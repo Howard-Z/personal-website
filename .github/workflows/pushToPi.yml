@@ -14,5 +14,5 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
-        git -C /var/www/howard-zhu/ pull origin
-        npm run build --prefix /var/www/howard-zhu/
+          git -C /var/www/howard-zhu/ pull origin
+          npm run build --prefix /var/www/howard-zhu/
